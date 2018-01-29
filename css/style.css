@@ -107,16 +107,92 @@ footer {
 	display: inline-block;
 }
 
-.col-md-9 {
+/* .col-md-9 {
 	padding-right: 30px;
-}
+} */
 
-.col-md-3 {
+/* .col-md-3 {
 	padding-left: 0px;
 	padding-right: 0px;
-}
+} */
 
 .col-md-12 {
 	text-align: center;
 	padding: 20px;
 }
+
+.portfolioContent {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.portfolioPics {
+	width: 260px;
+	height: 220px;
+	margin: 25px;
+	position: relative;
+}
+
+#portfolioMainContent {
+	padding: 0px;
+}
+
+.portfolioHeader {
+	padding: 25px 25px 0px 25px;
+	margin-bottom: 0px;
+}
+
+.projectLink {
+	position: relative;
+}
+
+.projectName {
+	position: absolute;
+	text-align: center;
+	bottom: 15px;
+	width: 260px;
+	height: 60px;
+	margin: 25px;
+	padding: 20px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-size: 20px;
+}
+
+input {
+	margin-top: 5px;
+	width: 100%;
+}
+
+#messageField {
+	margin-top: 5px;
+	height: 200px;
+	width: 100%;
+}
+
+#submitButton {
+	width: 100px;
+	height: 40px;
+	margin-top: 0px;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	border: #4aaaa5;
+}
+
+@media screen and (max-width: 992) {
+	.sideContent {
+		float: left;
+	}
+
+
+}
+
+@media screen and (max-width: 1199px) {
+		.row {
+			margin-left: 0%;
+			margin-right: 0%;
+		}
+}
+
