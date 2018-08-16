@@ -101,11 +101,29 @@ footer {
   transform: rotate(-10deg);
 }
 
+.certificateIcons {
+	width: 220px;
+	height: 220px;
+	display: block;
+	/* float: left; */
+	margin: 5px;
+}
+
+.icons:hover {
+	-ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
 .iconGroup {
 	padding-left: 2px;
 	height: 80px;
 	display: inline-block;
 }
+
+
 
 /* .col-md-9 {
 	padding-right: 30px;
@@ -127,6 +145,37 @@ footer {
 	justify-content: space-between;
 }
 
+.projectContainer {
+	width: 100%;
+	border: 1px solid black;
+	
+}
+
+.projectPics {
+	width: 40%;
+	height: 220px;
+	display: inline-block
+}
+
+.projectTitle {
+	/* position: absolute; */
+	text-align: center;
+	bottom: 15px;
+	width: 60%;
+	height: 60px;
+	/* margin: 25px; */
+	padding: 20px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-size: 20px;
+	;
+}
+
+.projectDescription {
+	width: 60%;
+	float: right;
+}
+
 .portfolioPics {
 	width: 260px;
 	height: 220px;
@@ -145,6 +194,10 @@ footer {
 
 .projectLink {
 	position: relative;
+}
+
+.projectTitle {
+	float: right;
 }
 
 .projectName {
